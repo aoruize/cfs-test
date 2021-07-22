@@ -33,7 +33,7 @@ const theme = {
         inputBackground: "#333",
         socialIcons: lightness("siteColor2", 0.5),
         socialIconsHover: lightness("siteColor2", 0.9),
-        buttonColor: lightness("siteColor2", 0.7),
+        buttonColor: lightness("siteColor2", 0.8),
         buttonHoverBg: lightness("siteColor2", 0.3),
         buttonHoverColor: lightness("siteColor2", 0.9),
         ...darkColors,
