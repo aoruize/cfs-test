@@ -16,9 +16,9 @@ const theme = {
     inputBackground: "#fff",
     socialIcons: lightness("siteColor2", 0.4),
     socialIconsHover: lightness("siteColor2", 0.3),
-    buttonColor: lightness("siteColor2", 0.9),
+    buttonColor: lightness("siteColor2", 1.0),
     buttonHoverBg: lightness("siteColor2", 0.4),
-    buttonHoverColor: lightness("siteColor2", 0.8),
+    buttonHoverColor: lightness("siteColor2", 0.9),
     modes: {
       dark: {
         text: "#f5f5f5",
@@ -33,9 +33,9 @@ const theme = {
         inputBackground: "#333",
         socialIcons: lightness("siteColor2", 0.5),
         socialIconsHover: lightness("siteColor2", 0.9),
-        buttonColor: lightness("siteColor2", 0.8),
+        buttonColor: lightness("siteColor2", 0.9),
         buttonHoverBg: lightness("siteColor2", 0.3),
-        buttonHoverColor: lightness("siteColor2", 0.9),
+        buttonHoverColor: lightness("siteColor2", 1.0),
         ...darkColors,
       },
     },
