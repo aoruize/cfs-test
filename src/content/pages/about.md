@@ -22,8 +22,6 @@ Forensic Services and Coroners Complex (FSCC)\
 General Inquiry: 647-329-1320\
 Director: Anthony Tessarolo
 
-
-
 ### Sault Ste. Marie Laboratory
 
 ![Photo of the Sault Ste. Marie Laboratory](/assets/roberta_bondar_place_2.png "Photo of the Sault Ste. Marie Laboratory")
