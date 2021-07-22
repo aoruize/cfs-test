@@ -217,6 +217,11 @@ collections:
             widget: "color"
             enableAlpha: true
             allowInput: true
+          - label: "Secondary Color"
+            name: "siteColor2"
+            widget: "color"
+            enableAlpha: true
+            allowInput: true
       - label: "Dark Theme"
         name: "darkthemescolors"
         file: "src/util/dark-theme-colors.json"
