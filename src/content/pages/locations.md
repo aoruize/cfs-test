@@ -1,6 +1,6 @@
 ---
-template: about-page
-slug: /about
+template: locations-page
+slug: /locations
 title: Locations
 ---
 ## Toronto Laboratory

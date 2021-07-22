@@ -6,7 +6,7 @@ tagline: Ontario Ministry of the Solicitor General
 featuredImage: /assets/cfslogo2.png
 cta:
   ctaText: Locations
-  ctaLink: /about
+  ctaLink: /locations
 ---
 Ontario's Centre of Forensic Sciences (CFS) is one of the most extensive forensic science facilities in North America. It conducts scientific investigations in cases involving injury or death for crimes against persons or property.
 
