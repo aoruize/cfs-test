@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Centre of Forensic Sciences
 tagline: Ontario Ministry of the Solicitor General
-featuredImage: /assets/cfslogo.png
+featuredImage: /assets/cfslogo2.png
 cta:
   ctaText: Locations
   ctaLink: /about
