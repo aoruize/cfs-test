@@ -3,8 +3,6 @@ template: about-page
 slug: /about
 title: Locations
 ---
-# Locations
-
 ## Toronto Laboratory
 
 ![Photo of the Toronto Laboratory](/assets/rnd_toronto_cfs.jpg "Photo of the Toronto Laboratory")
