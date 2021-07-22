@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Centre of Forensic Sciences",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "description": "Ontario's Centre of Forensic Sciences (CFS) is one of the most extensive forensic science facilities in North America. It conducts scientific investigations in cases involving injury or death for crimes against persons or property. ",
+    "siteUrl": "https://cfs-test.netlify.app",
+    "image": "/assets/ontario-logo.png",
+    "iconimage": "/assets/ontario-logo.png",
+    "twitterUsername": ""
   },
   "ga": "UA-XXXXXXXXX-X"
 }
