@@ -1,12 +1,11 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: Centre of Forensic Sciences
+tagline: Ontario Ministry of the Solicitor General
+featuredImage: /assets/rnd_toronto_cfs.jpg
 cta:
-  ctaText: Know more
+  ctaText: Learn more
   ctaLink: /about
 ---
-
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+Ontario's Centre of Forensic Sciences (CFS) is one of the most extensive forensic science facilities in North America. It conducts scientific investigations in cases involving injury or death for crimes against persons or property.
