@@ -14,11 +14,11 @@ const theme = {
     labelText: "#777",
     inputBorder: "#aaa",
     inputBackground: "#fff",
-    socialIcons: lightness("siteColor2", 0.4),
-    socialIconsHover: lightness("siteColor2", 0.3),
-    buttonColor: lightness("siteColor2", 0.9),
-    buttonHoverBg: lightness("siteColor2", 0.4),
-    buttonHoverColor: lightness("siteColor2", 0.8),
+    socialIcons: lightness("siteColor", 0.4),
+    socialIconsHover: lightness("siteColor", 0.3),
+    buttonColor: lightness("siteColor", 0.9),
+    buttonHoverBg: lightness("siteColor", 0.4),
+    buttonHoverColor: lightness("siteColor", 0.8),
     modes: {
       dark: {
         text: "#f5f5f5",
@@ -31,11 +31,11 @@ const theme = {
         labelText: "#777",
         inputBorder: "#777",
         inputBackground: "#333",
-        socialIcons: lightness("siteColor2", 0.5),
-        socialIconsHover: lightness("siteColor2", 0.9),
-        buttonColor: lightness("siteColor2", 0.7),
-        buttonHoverBg: lightness("siteColor2", 0.3),
-        buttonHoverColor: lightness("siteColor2", 0.9),
+        socialIcons: lightness("siteColor", 0.5),
+        socialIconsHover: lightness("siteColor", 0.9),
+        buttonColor: lightness("siteColor", 0.7),
+        buttonHoverBg: lightness("siteColor", 0.3),
+        buttonHoverColor: lightness("siteColor", 0.9),
         ...darkColors,
       },
     },
@@ -50,7 +50,7 @@ const theme = {
   },
   variants: {
     button: {
-      bg: "siteColor2",
+      bg: "siteColor",
       color: "buttonColor",
       "&:hover": {
         bg: "buttonHoverBg",

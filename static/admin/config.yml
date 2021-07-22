@@ -231,3 +231,8 @@ collections:
             widget: "color"
             enableAlpha: true
             allowInput: true
+          - label: "Secondary Color"
+            name: "siteColor2"
+            widget: "color"
+            enableAlpha: true
+            allowInput: true
