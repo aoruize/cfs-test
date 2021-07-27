@@ -4,7 +4,7 @@ title: Biology
 slug: /biology
 date: 2021-07-27 11:56
 description: Centre of Forensic Sciences - Biology Section
-featuredImage: /assets/cfs-biology.png
+featuredImage: /assets/pexels-edward-jenner-4031442.jpg
 ---
 ## What We Do
 
