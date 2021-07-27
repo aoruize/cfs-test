@@ -4,7 +4,7 @@ title: Toxicology
 slug: /toxicology
 date: 2020-05-13 12:55
 description: Centre of Forensic Sciences - Toxicology Section
-featuredImage: /assets/cfs-toxicology.png
+featuredImage: /assets/pexels-karolina-grabowska-4047055.jpg
 ---
 ## What We Do
 
