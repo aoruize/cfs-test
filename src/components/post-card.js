@@ -5,7 +5,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 
 const PostCard = ({ data }) => (
   <article
-    className="post-card"
+    className="section-card"
     sx={{
       bg: "cardBg",
     }}
@@ -21,7 +21,7 @@ const PostCard = ({ data }) => (
     ) : (
       ""
     )}
-    <div className="post-content">
+    <div className="section-content">
       <h2 className="title">
         <Link
           to={data.frontmatter.slug}

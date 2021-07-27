@@ -17,7 +17,7 @@ export const pageQuery = graphql`
   }
 `
 const LocationsPage = ({ data }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { markdownRemark } = data // data.markdownRemark holds your section data
   const { frontmatter, html, excerpt } = markdownRemark
 
   return (

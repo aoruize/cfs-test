@@ -43,7 +43,7 @@ export default class Search extends Component {
             <ul sx={searchStyle.searchResults}>
               {this.state.results.map(page => (
                 <li key={page.id}>
-                  {page.template === "blog-post" ? (
+                  {page.template === "cfsSection-section" ? (
                     <Link to={page.slug}>{page.title}</Link>
                   ) : (
                     ""

@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: cfsSection-section
 title: Toxicology
 slug: /toxicology
 date: 2020-05-13 12:55

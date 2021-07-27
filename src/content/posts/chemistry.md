@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: cfsSection-section
 title: Chemistry
 slug: /chemistry
 date: 2020-05-23 23:40

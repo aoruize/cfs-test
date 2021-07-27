@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: cfsSection-section
 title: Biology
 slug: /biology
 date: 2021-07-27 11:56

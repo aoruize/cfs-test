@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: cfsSection-section
 title: Documents
 slug: /documents
 date: 2020-05-13 12:37

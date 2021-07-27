@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
-  const blogList = path.resolve(`./src/templates/blog-list.js`)
+  const blogList = path.resolve(`./src/templates/cfsSection-list.js`)
 
   const result = await graphql(`
     {
@@ -33,15 +33,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const posts = result.data.allMarkdownRemark.edges
   let blogPostsCount = 0
 
-  posts.forEach((post, index) => {
-    const id = post.node.id
+  posts.forEach((section, index) => {
+    const id = section.node.id
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
     const next = index === 0 ? null : posts[index - 1].node
 
     createPage({
-      path: post.node.frontmatter.slug,
+      path: section.node.frontmatter.slug,
       component: path.resolve(
-        `src/templates/${String(post.node.frontmatter.template)}.js`
+        `src/templates/${String(section.node.frontmatter.template)}.js`
       ),
       // additional data can be passed via context
       context: {
@@ -51,19 +51,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
 
-    // Count blog posts.
-    if (post.node.frontmatter.template === "blog-post") {
+    // Count cfsSection posts.
+    if (section.node.frontmatter.template === "cfsSection-section") {
       blogPostsCount++
     }
   })
 
-  // Create blog-list pages
+  // Create cfsSection-list pages
   const postsPerPage = 9
   const numPages = Math.ceil(blogPostsCount / postsPerPage)
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+      path: i === 0 ? `/cfsSection` : `/cfsSection/${i + 1}`,
       component: blogList,
       context: {
         limit: postsPerPage,

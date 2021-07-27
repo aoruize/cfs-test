@@ -3,7 +3,7 @@ import { jsx } from "theme-ui"
 import { Link } from "gatsby"
 import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
 
-import PostCard from "./post-card"
+import PostCard from "./section-card"
 
 export default function BlogListHome(props) {
   const data = props.data
@@ -31,7 +31,7 @@ const PostMaker = ({ data }) => (
     <div className="grids col-1 sm-2 lg-3">{data}</div>
     <Link
       className="button"
-      to="/blog"
+      to="/sections"
       sx={{
         variant: "variants.button",
       }}

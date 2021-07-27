@@ -4,7 +4,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 import Layout from "../components/layout"
-import PostCard from "../components/post-card"
+import PostCard from "../components/section-card"
 import Seo from "../components/seo"
 
 const styles = {
@@ -25,7 +25,7 @@ export const blogListQuery = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
+      filter: { frontmatter: { template: { eq: "cfsSection-section" } } }
       limit: $limit
       skip: $skip
     ) {
@@ -88,7 +88,7 @@ class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const { currentPage, numPages } = this.props.pageContext
-    const blogSlug = "/blog/"
+    const blogSlug = "/cfsSection/"
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
     const prevPage =
@@ -109,14 +109,14 @@ class BlogIndex extends React.Component {
     }
 
     return (
-      <Layout className="blog-page">
+      <Layout className="cfsSection-page">
         <Seo
-          title={"Blog — Page " + currentPage + " of " + numPages}
+          title={"cfsSection — Page " + currentPage + " of " + numPages}
           description={
-            "Stackrole base blog page " + currentPage + " of " + numPages
+            "Stackrole base cfsSection page " + currentPage + " of " + numPages
           }
         />
-        <h1>Blog</h1>
+        <h1>cfsSection</h1>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>
         <Pagination {...props} />
       </Layout>

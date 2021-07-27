@@ -22,7 +22,7 @@ import {
 import { FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
-import BlogListHome from "../components/blog-list-home"
+import BlogListHome from "../components/cfsSection-list-home"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
@@ -47,7 +47,7 @@ export const pageQuery = graphql`
     }
     posts: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
+      filter: { frontmatter: { template: { eq: "cfsSection-section" } } }
       limit: 6
     ) {
       edges {
@@ -71,7 +71,7 @@ export const pageQuery = graphql`
 `
 
 const HomePage = ({ data }) => {
-  const { markdownRemark, posts } = data // data.markdownRemark holds your post data
+  const { markdownRemark, posts } = data // data.markdownRemark holds your section data
   const { frontmatter, html } = markdownRemark
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData

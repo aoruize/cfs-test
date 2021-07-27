@@ -25,9 +25,9 @@ const styles = {
 }
 
 const Pagination = props => (
-  <div className="pagination -post" sx={styles.pagination}>
+  <div className="pagination -section" sx={styles.pagination}>
     <ul>
-      {props.previous && props.previous.frontmatter.template === "blog-post" && (
+      {props.previous && props.previous.frontmatter.template === "cfsSection-section" && (
         <li>
           <Link to={props.previous.frontmatter.slug} rel="prev">
             <p
@@ -46,7 +46,7 @@ const Pagination = props => (
           </Link>
         </li>
       )}
-      {props.next && props.next.frontmatter.template === "blog-post" && (
+      {props.next && props.next.frontmatter.template === "cfsSection-section" && (
         <li>
           <Link to={props.next.frontmatter.slug} rel="next">
             <p
@@ -68,7 +68,7 @@ const Pagination = props => (
 )
 
 const Post = ({ data, pageContext }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { markdownRemark } = data // data.markdownRemark holds your section data
   const { frontmatter, html, excerpt } = markdownRemark
 
   const Image = frontmatter.featuredImage
@@ -91,7 +91,7 @@ const Post = ({ data, pageContext }) => {
         image={Image}
         article={true}
       />
-      <article className="blog-post">
+      <article className="cfsSection-section">
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
@@ -109,7 +109,7 @@ const Post = ({ data, pageContext }) => {
         </header>
 
         <div
-          className="blog-post-content"
+          className="cfsSection-section-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>

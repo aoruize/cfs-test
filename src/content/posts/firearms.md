@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: cfsSection-section
 title: Firearms and Toolmarks
 slug: /firearms
 date: 2021-07-27 12:47
