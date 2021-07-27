@@ -1,13 +1,11 @@
 ---
 template: blog-post
-title: Firearms
+title: Firearms and Toolmarks
 slug: /firearms
 date: 2021-07-27 12:47
 description: Centre of Forensic Sciences - Firearms Section
 featuredImage: /assets/joe-ei-cl8xcbco-unsplash.jpg
 ---
-# Physical Sciences: Firearms/Toolmarks
-
 ## What We Do
 
 Examine firearms, ammunition, target surfaces, toolmarks and related evidence found at crime scenes and during search warrants. For example, firearms and ammunition are examined to identify the type of weapon that fired a bullet or cartridge case to relate a bullet, slug or cartridge case to a specific weapon. Toolmarks are examined in relation to a specific tool.
